@@ -1,0 +1,83 @@
+
+body {
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    
+  }
+
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-aberto {
+    background-image: linear-gradient(to bottom right, #28a745, #4cd964);
+    color: white;
+  }
+
+  .card-pendente {
+    background-image: linear-gradient(to bottom right, #dc3545, #ff3545);
+    color: white;
+  }
+
+  .card-atribuido {
+    background-image: linear-gradient(to bottom right, #ffc107, #ffdd57);
+    color: black;
+  }
+
+  .card-finalizado {
+    background-image: linear-gradient(to bottom right, #17a2b8, #45c6d9);
+    color: white;
+  }
+
+  .card-text {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+.card-title{
+  text-align: center;
+}
+
+thead{
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+.table-container {
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+  overflow: hidden; /* Oculta a parte do conteúdo que ultrapassar as bordas */
+}
+
+.text-container h4{
+  text-align: center;
+  font-size: 35px;
+}
+
+thead{
+  background-color: #28a745;
+}
+
+th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px; /* Ajuste o valor conforme necessário */
+}
+
+hora-atual{
+  text-align: center;
+}
+
+.card-title{
+  text-align: center;
+  font-size: large;
+}
