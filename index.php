@@ -130,8 +130,10 @@
                                   FROM glpi_tickets AS t
                                   INNER JOIN glpi_itilcategories AS c
                                   ON t.itilcategories_id = c.id
+                                  WHERE t.status IN (1,2,3,4)
                                   ORDER BY t.id DESC
-                                  LIMIT 10";
+                                  LIMIT 10"
+                                  ;
           $resultUltimosChamados = mysqli_query($connection, $queryUltimosChamados);
 
           // Exibir os últimos chamados em uma tabela
